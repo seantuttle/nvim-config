@@ -69,16 +69,16 @@ return {
 			{ "TimUntersberger/neogit", config = { disable_commit_confirmation = true } },
 		},
 		keys = {
-			{ "<C-g>", "<CMD>DiffviewOpen<CR>", mode = { "n", "i", "v" } },
+			{ ",d", "<CMD>DiffviewOpen<CR>", mode = { "n", "v" } },
 		},
 		config = {
 			keymaps = {
 				view = {
-					["<C-g>"] = "<CMD>DiffviewClose<CR>",
+					[",d"] = "<CMD>DiffviewClose<CR>",
 					["c"] = "<CMD>DiffviewClose|Neogit commit<CR>",
 				},
 				file_panel = {
-					["<C-g>"] = "<CMD>DiffviewClose<CR>",
+					[",d"] = "<CMD>DiffviewClose<CR>",
 					["c"] = "<CMD>DiffviewClose|Neogit commit<CR>",
 				},
 			},
