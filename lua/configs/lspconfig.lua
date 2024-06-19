@@ -10,6 +10,7 @@ local servers = {
   "rust_analyzer",
   "pyright",
   "jsonls",
+  "digestif",
 }
 
 -- lsps with default config

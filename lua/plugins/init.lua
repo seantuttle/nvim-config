@@ -27,6 +27,7 @@ return {
         "rust-analyzer",
         "pyright",
         "json-lsp",
+        "digestif",
       },
     },
   },
@@ -45,6 +46,7 @@ return {
         "typescript",
         "json",
         "yaml",
+        "latex",
       },
       incremental_selection = {
         enable = true,
