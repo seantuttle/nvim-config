@@ -30,6 +30,7 @@ return {
 				"digestif",
 				"typescript-language-server",
 				"taplo",
+				"jdtls",
 			},
 		},
 	},
@@ -50,6 +51,7 @@ return {
 				"yaml",
 				"latex",
 				"toml",
+				"java",
 			},
 			incremental_selection = {
 				enable = true,
