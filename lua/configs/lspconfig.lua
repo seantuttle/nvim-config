@@ -12,6 +12,7 @@ local servers = {
   "jsonls",
   "digestif",
   "tsserver",
+  "taplo",
 }
 
 -- lsps with default config

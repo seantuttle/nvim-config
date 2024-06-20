@@ -29,6 +29,7 @@ return {
 				"json-lsp",
 				"digestif",
 				"typescript-language-server",
+        "taplo",
 			},
 		},
 	},
@@ -48,6 +49,7 @@ return {
 				"json",
 				"yaml",
 				"latex",
+        "toml",
 			},
 			incremental_selection = {
 				enable = true,
