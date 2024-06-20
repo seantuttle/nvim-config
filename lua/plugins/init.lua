@@ -29,7 +29,7 @@ return {
 				"json-lsp",
 				"digestif",
 				"typescript-language-server",
-        "taplo",
+				"taplo",
 			},
 		},
 	},
@@ -49,7 +49,7 @@ return {
 				"json",
 				"yaml",
 				"latex",
-        "toml",
+				"toml",
 			},
 			incremental_selection = {
 				enable = true,
@@ -85,5 +85,13 @@ return {
 				},
 			},
 		},
+	},
+	{
+		"iamcco/markdown-preview.nvim",
+		cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+		ft = { "markdown" },
+		build = function()
+			vim.fn["mkdp#util#install"]()
+		end,
 	},
 }
