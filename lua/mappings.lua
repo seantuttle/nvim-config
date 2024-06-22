@@ -18,3 +18,6 @@ map("n", "<leader>do", "<cmd>lua vim.diagnostic.open_float()<CR>", { noremap = t
 map("n", "<leader>d[", "<cmd>lua vim.diagnostic.goto_prev()<CR>", { noremap = true, silent = true })
 map("n", "<leader>d]", "<cmd>lua vim.diagnostic.goto_next()<CR>", { noremap = true, silent = true })
 map("n", "<leader>dd", "<cmd>Telescope diagnostics<CR>", { noremap = true, silent = true })
+
+-- spell check mappings
+map({ "n", "v" }, "<leader>sc", "<cmd>set spell!<cr>", { desc = "Toggle spellcheck" })
