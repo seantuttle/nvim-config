@@ -8,3 +8,5 @@ local o = vim.o
 o.relativenumber = true
 
 o.spelllang = "en_us"
+
+o.foldmethod = "indent"
