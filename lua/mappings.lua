@@ -3,7 +3,6 @@ require("nvchad.mappings")
 local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
-map("i", "jk", "<ESC>")
 
 -- easy bindings for clipboard use
 map("v", "<leader>cc", '"+y', { desc = "Copy to clipboard" })
