@@ -15,6 +15,7 @@ return {
 				"typescript-language-server",
 				"taplo",
 				"jdtls",
+				"codelldb",
 			},
 		},
 	},
